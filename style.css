@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+header,
+.hero,
+footer {
+	background-color: #1f2937;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 6px 15% 0px 15%;
+}
+
+header ul {
+	display: flex;
+	gap: 25px;
+	list-style-type: none;
+}
+header ul a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #b9bdc4;
+}
+
+.header-logo {
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration: none;
+	color: #f9faf8;
+	margin-right: auto;
+}
+
+.hero .hero-left .sentence {
+	text-decoration: none;
+	font-size: 18px;
+	color: #b9bdc4;
+}
+
+.hero {
+	display: flex;
+	padding: 130px 0 130px 0;
+	align-items: center;
+}
+
+.hero-left {
+	min-width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 200px;
+	padding-right: 50px;
+}
+
+.hero-image {
+	min-width: 50%;
+}
+
+.hero-image img {
+	padding: 0;
+	margin: 0;
+	padding-right: 300px;
+	min-width: 520px;
+	min-height: 250px;
+	background-color: gray;
+}
+
+.hero .title {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9faf8;
+}
+
+.hero .action button {
+	background-color: #3883f6;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 35px;
+	border-radius: 8px;
+	border: 0;
+}
+
+.call-to-action button {
+	background-color: #3883f6;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 35px;
+	border-radius: 8px;
+	border: 2px solid white;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.information .heading {
+	font-size: 36px;
+	font-weight: 800;
+	padding: 50px 0 50px 0;
+}
+
+.information .cards {
+	display: flex;
+	margin-bottom: 50px;
+	gap: 50px;
+	justify-content: center;
+}
+
+.information .card {
+	width: 150px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+.information .heading .cards .card .cart-text {
+	color: #b9bdc4;
+}
+
+.information img {
+	height: 150px;
+	border-radius: 10px;
+	flex-grow: 1;
+	background-color: gray;
+}
+
+footer {
+	text-align: center;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	padding: 200px 250px;
+	gap: 25px;
+}
+
+.quote .dialogue {
+	color: #3c4351;
+	font-size: 36px;
+	font-style: italic;
+}
+
+.quote .author {
+	align-self: flex-end;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	padding: 50px;
+	margin: 90px 170px;
+	background-color: #3c82f6;
+	border-radius: 10px;
+}
+
+.call-to-action .action-text {
+	color: white;
+}
+
+.call-to-action .action-text .first {
+	font-size: 28px;
+}
+
+footer {
+	color: #d0d4da;
+	padding: 40px 0;
+}
+
+.main {
+	display: flex;
+}
+.left {
+	flex-grow: 1;
+}
+.right {
+	flex-grow: 1;
+}
